@@ -223,7 +223,5 @@ function draw() {
   fill(255,0,0);
   stroke(255,0,0);
   triangle (1790,650,1810,680,1825,650)
-if (frameCount < 70){
-saveCanvas("miFlipbooksito_" + frameCount, 'jpg');
-}
+
 }
